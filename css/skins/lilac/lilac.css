@@ -40,5 +40,35 @@ ul.check li i{
 }
 
 .title_section .arrow_title{
-  background: url("arrow_title.png") no-repeat;
+  /*background: url("arrow_title.png") no-repeat;*/
+}
+
+.arrow_box {
+  position: relative;
+  left: -4px;
+  top: -6px;
+  background: #CBB4CC;
+  border: 0 solid #CBB4CC;
+}
+.arrow_box:after, .arrow_box:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.arrow_box:after {
+  border-color: rgba(203, 180, 204, 0);
+  border-left-color: #CBB4CC;
+  border-width: 25px;
+  margin-top: -25px;
+}
+.arrow_box:before {
+  border-color: rgba(203, 180, 204, 0);
+  border-left-color: #CBB4CC;
+  border-width: 25px;
+  margin-top: -25px;
 }
