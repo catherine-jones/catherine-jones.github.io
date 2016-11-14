@@ -16,6 +16,7 @@ aside .tags li,
     overflow: hidden;
 }
 .item-preview {
+  border: solid 1px #cdcdcd;
   height: 302px;
   overflow-y: hidden;
 }
