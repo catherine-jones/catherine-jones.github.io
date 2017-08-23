@@ -9,6 +9,9 @@ aside .tags li,
   background: #CBB4CC;
   background-color: #CBB4CC;
 }
+.title_section h1 {
+  padding: 10px 10px 10px 40px;
+}
 .img-preview {
   background: #CBB4CC;
     background: rgba(203, 180, 204,0.9)  no-repeat center center;
@@ -46,11 +49,19 @@ ul.check li i{
 
 .arrow_box {
   position: relative;
-  left: -4px;
-  top: -6px;
+  left: 0;
+  top: -3px;
   background: #CBB4CC;
   border: 0 solid #CBB4CC;
 }
+
+@media (min-width: 998px){
+  .arrow_box {
+    top: -7px;
+    left: -4px;
+  }
+}
+
 .arrow_box:after, .arrow_box:before {
   left: 100%;
   top: 50%;
@@ -72,4 +83,10 @@ ul.check li i{
   border-left-color: #CBB4CC;
   border-width: 25px;
   margin-top: -25px;
+}
+
+
+
+.logo .title_logo{
+  padding:30px 15px;
 }
